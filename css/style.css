@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  line-height: 24px;
+  font-weight: 500;
+  overflow-x: hidden !important;
+  text-align: left;
+  position: relative;
+  color: white;
+  background: #100e17;
+  opacity: 1;
+}
+
+.mh-nav {
+  width: 100%;
+}
+.mh-header {
+  padding: 20px 0;
+  background-color: #1e1e25;
+  z-index: 1;
+}
+.navbar-nav li {
+  margin: 0 20px;
+}
+
+.mh-header .navbar-nav li a {
+  color: white;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  opacity: 1;
+  line-height: 30px;
+}
+
+.navbar_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mh-home {
+  opacity: 2;
+  color: white;
+}
+.section_li a {
+  color: white;
+}
+.social-icon {
+  visibility: visible;
+  padding: 5px;
+}
+.social-icon li a {
+  font-size: 25px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-right: 0;
+  color: white;
+}
+
+.mh-about {
+  color: white;
+}
+
+.img {
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+} 
